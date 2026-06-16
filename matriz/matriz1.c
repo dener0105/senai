@@ -1,10 +1,12 @@
 #include <stdio.h>
 
+#define L 3
+#define C 4
+
 int main() {
     int matriz[3][4];
     int i, j;
 
-    // Leitura dos valores
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 4; j++) {
             printf("Digite matriz[%d][%d]: ", i + 1, j + 1);
@@ -12,7 +14,6 @@ int main() {
         }
     }
 
-    // Exibição da matriz
     printf("\nMatriz:\n");
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 4; j++) {
