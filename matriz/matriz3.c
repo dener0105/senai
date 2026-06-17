@@ -7,6 +7,7 @@ int main() {
 
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
+            printf("digite os elementos %d, %d:  " , i+1, j+1);
             scanf("%d", &matriz[i][j]);
 
             if (i == 0 && j == 0) {
