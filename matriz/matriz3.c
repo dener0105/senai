@@ -10,11 +10,8 @@ int main() {
             printf("digite os elementos %d, %d:  " , i+1, j+1);
             scanf("%d", &matriz[i][j]);
 
-            if (i == 0 && j == 0) {
-                maior = matriz[i][j];
-                linha = i;
-                coluna = j;
-            } else if (matriz[i][j] > maior) {
+        
+         if (matriz[i][j] > maior) {
                 maior = matriz[i][j];
                 linha = i;
                 coluna = j;
