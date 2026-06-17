@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define L 4
-#define C 5
+#define C 4
 int main() {
     int matriz[4][4];
     int maior;
