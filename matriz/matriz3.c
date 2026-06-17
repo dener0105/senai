@@ -1,6 +1,5 @@
 #include <stdio.h>
-#define L 4
-#define C 4
+
 int main() {
     int matriz[4][4];
     int maior;
@@ -11,6 +10,11 @@ int main() {
             printf("digite os elementos %d, %d:  " , i+1, j+1);
             scanf("%d", &matriz[i][j]);
 
+            if (i == 0 && j == 0) {
+                maior = matriz[i][j];
+                linha = i;
+                coluna = j;
+            } else if (matriz[i][j] > maior) {
         
          if (matriz[i][j] > maior) {
                 maior = matriz[i][j];
@@ -24,4 +28,5 @@ int main() {
     printf("Posicao: linha %d coluna %d\n", linha + 1, coluna + 1);
 
     return 0;
+}
 }
