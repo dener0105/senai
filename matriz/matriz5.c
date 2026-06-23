@@ -2,4 +2,5 @@
 
 int main() {
     int matriz [6][4];
+    int
 }
