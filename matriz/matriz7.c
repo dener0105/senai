@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int 
+    int matriz [5][3];
+
+
 
 }
