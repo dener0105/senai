@@ -15,9 +15,11 @@ int main() {
         for (int coluna = 0; coluna < 5; coluna++) {
             if (linha == coluna) {
                 printf("%d\n", matriz[linha][coluna]);
+                else 
+
+                    printf(" \t|  ");
+                }
             }
         }
     }
 
-    return 0;
-}
