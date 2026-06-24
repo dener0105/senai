@@ -2,11 +2,11 @@
 
 int main() {
     int matriz[5][5] = {
-        {6, 5, 8, 1, 7},
-        {1, 3, 7, 7, 7},
-        {4, 7, 9, 9, 1},
-        {5, 2, 2, 2, 6},
-        {6, 9, 2, 1, 0}
+        {6, 8, 1, 9, 4},
+        {6, 7, 8, 1, 1},
+        {2, 3, 1, 6, 3},
+        {7, 8, 5, 3, 1},
+        {3, 4, 4, 7, 9}
     };
 
     printf("Diagonal:\n");
@@ -15,11 +15,9 @@ int main() {
         for (int coluna = 0; coluna < 5; coluna++) {
             if (linha == coluna) {
                 printf("%d\n", matriz[linha][coluna]);
-                else 
-
-                    printf(" \t|  ");
-                }
             }
         }
     }
 
+    return 0;
+}
