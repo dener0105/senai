@@ -7,7 +7,8 @@ int estoque [3][5];
 int i, j, total =0, totalgeral, opcao;
 
 void cadastro de estoque(){
-    for (i = 0; i < L;)
+    for (i = 0; i < L; i++);
+    for()
 }
 
 
