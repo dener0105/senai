@@ -31,7 +31,8 @@ int main()
  break;
  case 12: printf ("o %dº mes do calendario e dezembro",mes);
  break;
- default: printf ("nao existe um valor correspondente a %s","este valor");
+ default: printf ("nao existe um valor correspondente a %s","este valor.");
+ 
 
 
 
