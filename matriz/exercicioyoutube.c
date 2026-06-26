@@ -28,7 +28,7 @@ int main()
  case 7: printf ("o %d mes do calendario e julho",mes);
  break;
 
- case 8: printf ("o %d mes do calendario e agosto",mes);
+ case 8: printf ("o %d︃º mes do calendario e agosto",mes);
  break;
 
  case 9: printf ("o %d mes do calendario e setembro",mes);
