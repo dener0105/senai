@@ -11,7 +11,7 @@ int main()
     scanf("%d",&mes);
 
     switch (mes)
-{
+ {
  case 1: printf ("o %dº mes do calendario e janeiro",mes);
  break;
 
@@ -41,7 +41,7 @@ int main()
 
  case 10: printf ("o %dº mes do calendario e outubro",mes);
  break;
- 
+
  case 11: printf ("o %dº mes do calendario e novembro",mes);
  break;
 
