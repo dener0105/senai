@@ -26,11 +26,11 @@ int main()
  case 9: printf ("o %dº mes do calendario e setembro",mes);
  break;
  case 10: printf ("o %dº mes do calendario e outubro",mes);
-
+ break;
  case 11: printf ("o %dº mes do calendario e novembro",mes);
-
+ break;
  case 12: printf ("o %dº mes do calendario e dezembro",mes);
-
+ break;
 
 
 
