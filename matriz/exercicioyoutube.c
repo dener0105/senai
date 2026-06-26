@@ -1,6 +1,11 @@
 #include <stdio.h>
+#include <windows.h>
+
 int main()
 {
+
+    SetConsoleOutputCP(CP_UTF8);
+
     int mes;
     printf("\ndigite um valor de 1 a 12 >: ");
     scanf("%d",&mes);
